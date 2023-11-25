@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import { logowanieComponent } from './logowanie/logowanie.component';
 import { FormsModule } from "@angular/forms";
 import { ReactiveFormsModule } from '@angular/forms';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    logowanieComponent
+    logowanieComponent,
+    DashboardComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
